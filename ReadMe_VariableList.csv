@@ -1,0 +1,26 @@
+Variable name;Meaning;format;Our use;Notes
+Day;Weekday number - Monday  =1,... Sunday =7;Int;identifier of day, used to identify day-specific variation
+Hour;Values between 0 and 23 (0 = one hour starting at 00:00);Int;identifier of hour, used to identify hour-specific variation
+Secular_Holiday;Holds secular holidays, includes days such as labour day, each hour of the day is coded as one;Binary;independent variable
+Religious_holiday;Holds religious holidays, includes religious holidays such as Christmas. each hour of the day is coded as one;Binary;independent variable
+Sports;Holds sports events includes days where major sports events take place - choice of events ad days are based on national TV-watching statistics ;Binary;independent variable
+TV_Media;Holds TV and media events includes days where major non-sports activities take place - choice of events ad days are based on national TV-watching statistics ;Binary;independent variable
+Weather_transport;holds 'extreme' days, indicating days when 'extreme' weather or infrastructure breakdown creates transport-chaos;Binary;independent variable
+AirTempMLM;Centigrades per hour - Southern Sweden;float/double;independent variable;MLM = Malmö
+AirTempSTHLM;Centigrades per hour - central Sweden;float/double;independent variable;STHLM = Stockholm
+precipitationMLM;mm of precipitation  per hour - southern Sweden ;float/double;independent variable
+precipitationSTHLM;mm of precipitation per hour - central Sweden;float/double;independent variable
+RainMLM2;mm2 of precipitation  per hour - southern Sweden ;float/double;independent variable
+RainSTHLM2;mm2 of precipitation per hour - central Sweden;float/double;independent variable
+D_precipitationMLM;Hourly change in precipitation per hour - southern Sweden ;float/double;independent variable
+D_precipitationSTHLM;Hourly change in precipitation per hour- central Sweden;float/double;independent variable
+D_AirTempMLM;Hourly change in centigrades per hour - southern Sweden ;float/double;independent variable
+D_AirTempSTHLM;Hourly change in centigrades per hour - central Sweden ;float/double;independent variable
+D_precipitationMLM2;Hourly change in temperature per hour - southern Sweden ;float/double;independent variable
+D_precipitationSTHLM2;Hourly change in temperature per hour- central Sweden;float/double;independent variable
+D_AirTempMLM2;Hourly change in centigrades2 per hour - southern Sweden ;float/double;independent variable
+D_AirTempSTHLM2;Hourly change in centigrades2 per hour - central Sweden ;float/double;independent variable
+MY;Holder of year-specific month, April 2016 and April 2017 are separated;Int;identifier of year-specific month, used to identify month-specific variation
+StandSize;Standardised file size;float/double;Dependent variable
+AirTempMLM2;Centigrades2 per hour - Southern Sweden;float/double;independent variable
+AirTempSTHLM2;Centigrades2 per hour - central Sweden;float/double;independent variable
